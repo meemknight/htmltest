@@ -1,0 +1,80 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;  
+    margin-top: 0px;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+
+body{
+    background-color: rgb(42, 35, 43);
+
+}
+
+.mainTitle
+{
+    background-color:rgb(27, 1, 19);
+    color: purple;
+
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+
+    border: 5px rgb(27, 1, 19) solid;
+    border-width: 1em;
+
+    font-size: 40pt;
+    font-family: fantasy;
+
+    
+}
+
+.navBar
+{
+    background-color: purple;
+    color: rgb(27, 1, 19);
+    
+    margin: 0;
+    padding: 0;
+}
+
+.navBar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+}
+
+.navBar a
+{
+    border: 5px purple solid;
+    border-width: 0.2em;
+
+    padding: 0;
+
+    font-size: 20pt;
+    font-family: fantasy;
+    color: rgb(27, 1, 19);   
+}
+
+.navBar li
+{
+    list-style: none;
+    float: left;
+
+}
+
+.navBar a:hover
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+   
+}
