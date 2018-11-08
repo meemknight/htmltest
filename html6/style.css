@@ -78,3 +78,46 @@ body{
     font-weight: bold;
    
 }
+
+
+.ui
+{   
+    background-color:rgb(27, 1, 19);
+    color: purple;
+
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    margin-right: 0;
+
+    border: 5px rgb(27, 1, 19) solid;
+    border-width: 1em;
+
+    font-size: 20pt;
+    font-family: fantasy;
+
+}
+
+.ui [type="text"]
+{
+    width: 24em;
+
+}
+
+.ui textarea
+{
+    width: 24em;
+    height: 24em;
+    resize: none;
+}
+
+.ui input
+{
+    margin-bottom: 1em;
+}
+
+.ui label
+{
+    display: block;
+}
